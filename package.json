@@ -13,6 +13,7 @@
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
+    "pg": "^7.4.3",
     "sequelize": "^4.37.7",
     "sequelize-cli": "^4.0.0",
     "sqlite3": "^4.0.0"
