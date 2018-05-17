@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   callApi = async () => {
-    const d = await axios.get(`http://localhost:5000/api/fetchusers`)
+    const d = await axios.get(`http://ec2-18-188-79-25.us-east-2.compute.amazonaws.com:5000/api/fetchusers`)
       .then(res => {
         return res
       })
