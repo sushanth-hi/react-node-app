@@ -13,7 +13,7 @@
   "production": {
     "username": "postgres",
     "password": "postgres",
-    "database": "test ",
+    "database": "test",
     "host": "localhost",
     "dialect": "postgres"
   }
