@@ -21,17 +21,18 @@ class App extends Component {
   }
 
   callApi = async () => {
-    const d = await axios.get(`http://ec2-18-188-79-25.us-east-2.compute.amazonaws.com:5000/api/fetchusers`)
+    // Change the server side URL based on your backend
+    // Keep apiUrl in constants file
+    const response = await axios.get(`http://localhost:5000/api/fetchusers`)
       .then(res => {
         return res
       })
      
-      return d
+      return response
   };
 
   render() {
     const user_data = this.state.users.map((user)=> {
-      console.log(user)
       return {
         id: user.id,
         name: user.username,
